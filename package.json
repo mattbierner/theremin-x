@@ -1,0 +1,25 @@
+{
+  "name": "theremin-x",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc -p tsconfig.json",
+    "start": "node ./out/index.js",
+    "compile:watch": "tsc -p tsconfig.json --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "left-pad": "^1.2.0",
+    "midi": "^0.9.5",
+    "noble": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/left-pad": "^1.2.0",
+    "@types/noble": "0.0.34",
+    "typescript": "^2.9.2"
+  }
+}
