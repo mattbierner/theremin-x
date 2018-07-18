@@ -21,12 +21,15 @@ Ctrl+c to stop the script.
 
 
 ## Hardware
-**Theremin**
+
+### Theremin
+
 The script in this repo samples the pitch and volume of a theremin as Midi input. Some basic config options for midi connecting are found in `src/config.ts`. The mapping from midi input values to vibration strength is found in `scr/sampler.ts`. The current values are optimized for an Moog Etherwave theremin and may need tweaking for best results.
 
 If dealing with a non-midi enabled theremin, such as the professionally one used in the video, consider using [Midi Merlin](http://www.randygeorgemusic.com/midimerlin/).
 
-**Toys&&
+### Toys
+
 The following vibrators should connect automatically:
 
 - [Lovense Hush](https://www.lovense.com/vibrating-butt-plug)
