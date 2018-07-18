@@ -1,6 +1,6 @@
 # Theremin-X Source
 
-Code used that powered the [Theremin-X Project](https://blog.mattbierner.com/theremin-x).
+Code that powered the [Theremin-X Project](https://blog.mattbierner.com/theremin-x).
 
 ***Warning:** this code was basically written to be run once. It did that, and I'm just posting it up on Github in case anyone else wants to see how it was done. It's not pretty and is probably not be a good starting point for similar projects.*
 
