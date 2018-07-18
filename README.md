@@ -2,6 +2,7 @@
 
 Code used that powered the [Theremin-X Project](https://blog.mattbierner.com/theremin-x).
 
+***Warning:** this code was basically written to be run once. It did that, and I'm just posting it up on Github in case anyone else wants to see how it was done. It's not pretty and is probably not be a good starting point for similar projects.*
 
 ## Running
 The node scripts are written in TypeScript and use the [noble](https://www.npmjs.com/package/noble) library for bluetooth. 
@@ -14,7 +15,9 @@ $ npm run compile
 $ npm run start
 ```
 
-This starts the script listing on the default midi input. It will automatically discover nearby supported vibrators. Ctrl+c to stop script.
+This starts the script listing on the default midi input ports. It will automatically discover nearby supported vibrators and drive them using there theremin midi input.
+
+Ctrl+c to stop the script.
 
 
 ## Hardware
